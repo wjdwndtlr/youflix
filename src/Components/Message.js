@@ -13,10 +13,7 @@ const Text = styled.span`
 
 const Message = ({ text, color }) => (
   <Container>
-    <Text color={color}>
-      {text}
-      <p>(영어로 검색해주세요)</p>
-    </Text>
+    <Text color={color}>{text}</Text>
   </Container>
 );
 

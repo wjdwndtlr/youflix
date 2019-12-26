@@ -18,7 +18,7 @@ const Form = styled.form`
 const Input = styled.input`
   all: unset;
   font-size: 28px;
-  color: black;
+  color: white;
   width: 100%;
 `;
 
@@ -62,7 +62,7 @@ const SearchPresenter = ({
     )}
     {error && <Message colo="#e74c3c" text={error} />}
     {movieResults && movieResults.length === 0 && (
-      <Message text="Nothing found" color="#95a5a6" />
+      <Message text="Nothing found!" color="#95a5a6" />
     )}
   </Container>
 );
